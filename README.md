@@ -86,7 +86,7 @@ The following steps are the same, regardless of the headset.
 * Drag and drop `Green` on to the `Pillar`
 * Drag and drop `Pale Blue` on to the `Floor`
 * Open the Lighting tab
-	* `Window -> General -> Lighting Settings`
+	* `Window -> Rendering -> Lighting Settings`
 	* Under `Environment Lighting` change `Ambient Mode` to `Baked`.
 
 ## Oculus Integration
@@ -157,7 +157,7 @@ The first two files will contain your App's ID, so take that in to consideration
 	* Ensure that `Show Third Person` is not checked.
 	* Optionally, un-check `Can Own Microphone` because we won't be using the mic in this tutorial.
 	
-* Create a manifest file, without it hands do not seem to work: Oculus -> Tools -> Create store-compatible AndroidManifest.xml
+* Create a manifest file, without it, hands do not seem to work: Oculus -> Tools -> Create store-compatible AndroidManifest.xml
 
 That's it!  Build and run.  You should have animated hands.
 
